@@ -26,6 +26,11 @@
     border-radius: 10px;
     font-weight: bold;
     border: 3px solid black;
+    background-color: red;
+}
+
+.botoes-menu:hover {
+    background-color: gold;
 }
 
 .posicao-botoes {
@@ -43,3 +48,6 @@
     left: 20px;
     border: 5px solid black;
 }
+
+/* Edições pag sobre */
+
