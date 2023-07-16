@@ -13,35 +13,39 @@
     display: inline;
     float: left;
     border: 5px solid black;
+    background: rgb(98,2,2);
+    background: linear-gradient(180deg, rgba(98,2,2,1) 0%, rgba(136,2,2,1) 45%, rgba(204,1,1,1) 90%);
 }
 
 .menu:hover {
-    border: 5px solid red;
+    border: 5px solid #BDBF09;
     transition: 3s;
 }
 
 .botoes-menu {
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 10px;
     font-weight: bold;
     border: 3px solid black;
-    background-color: red;
+    background-color: #96C5B0;
+    box-shadow: 10px 10px;
 }
 
 a {
     text-decoration: none;
-    color: navy;
+    color: black;
+    font-weight: bolder;
 }
 
 .botoes-menu:hover {
-    background-color: gold;
+    background-color: #ADF1D2;
 }
 
 .posicao-botoes {
     display: grid;
     padding: 25px;
-    margin-top: 55vh;
+    margin-top: 52vh;
 }
 
 .imagem {
@@ -51,7 +55,7 @@ a {
     position: absolute;
     top: 10vh;
     left: 20px;
-    border: 5px solid black;
+    border: 5px dashed #BDBF09;
 }
 
 /* Edições pag sobre */
@@ -92,7 +96,9 @@ a {
 .logo {
     height: 70px;
     width: auto;
-    padding-right: 10px;
     margin-top: 70vh;
-    margin-left: 15%;
+    margin-left: 10%;
 }
+
+/* Edições pag conhecimentos */
+
