@@ -102,3 +102,32 @@ a {
 
 /* Edições pag conhecimentos */
 
+.conhecimentos {
+    position: absolute;
+    top: 15vh;
+    left: 300px;
+}
+
+.conhecimentos ol{
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+} 
+
+.conhecimentos li {
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.linguagens {
+    position: absolute;
+    display: inline;
+    left: 25vw;
+}
+
+.linguagens img{
+    height: 100px;
+    width: auto;
+    margin-top: 70vh;
+    margin-right: 10px;
+}
