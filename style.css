@@ -131,3 +131,26 @@ a {
     margin-top: 70vh;
     margin-right: 10px;
 }
+
+/* Edições pag objetivos */
+
+.objetivos-lista {
+    position: fixed;
+    top: 45%;
+    left: 350px;
+    transform: translate(0, -50%);
+}
+
+.objetivos-lista li {
+    font-size: 25px;
+    list-style: disc;
+    list-style-type: "\1F3AF";
+    font-weight: bolder;
+}
+
+.separador-objetivos {
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
